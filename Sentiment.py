@@ -1,6 +1,5 @@
-import nltk
-from nltk.sentiment.vader import SentimentIntensityAnalyzer
-nltk.download('vader_lexicon')
+
+from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 # Initialize the analyzer
 analyzer = SentimentIntensityAnalyzer()
 
